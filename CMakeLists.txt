@@ -1,0 +1,14 @@
+
+cmake_minimum_required(VERSION 3.17)
+
+project(RailwayBookingSystem)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(RailwayBookingSystem_lib)
+add_subdirectory(RailwayBookingSystem_lib)
+
+add_executable(RailwayBookingSystem_testApplication TestApplication.cpp)
+target_link_libraries(RailwayBookingSystem_testApplication RailwayBookingSystem_lib)
+
+add_subdirectory(Unit_tests)
