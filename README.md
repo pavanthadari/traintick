@@ -1,10 +1,3 @@
-# RailwayBookingSystem
-Software Engineering: CS20006  
-
-19CS10068 - Jayanth PSY
-
----
-
 A rudimentary railway reservation / booking system (somewhat like IRCTC Train Ticket
 Booking, but extremely scaled down in features)
 
